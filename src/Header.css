@@ -1,0 +1,74 @@
+.header_logo{
+    width: 80px;
+    height: 30px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    object-fit: contain;
+    
+}
+.header{
+    background-color: #1a1e24;
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_searchIcon{
+    background-color: #cd9042;
+    padding: 5px;
+    
+}
+
+.header_search{
+    display:flex;
+    flex:1;
+
+}
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_link{
+    color: white;
+    text-decoration: none;
+}
+
+.header_lineOne{
+    font-size: 10px;
+
+}
+.header_lineTwo{
+    font-size: 13px;
+    font-weight: 800;
+    
+}
+.header_optionBasket{
+    display:flex;
+    color: white;
+    align-items: center;
+
+}
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
